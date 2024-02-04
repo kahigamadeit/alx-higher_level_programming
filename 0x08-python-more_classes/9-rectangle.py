@@ -113,8 +113,8 @@ class Rectangle:
         return res
 
     def __del__(self):
-OBOAOAOAOAOAOAOAOAOAOA        """ Print a message for del
-OAOAOAOAOAOAOAOAOAOAOAOAOAOAOAOA            Decrement instance when del is called
+        """ Print a message for del
+            Decrement instance when del is called
         """
-OAOA        print("Bye rectangle...")
+        print("Bye rectangle...")
         Rectangle.number_of_instances -= 1
